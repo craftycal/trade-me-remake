@@ -1,0 +1,133 @@
+ body {
+ 	margin: 0;
+ }
+
+ #sister-sites a small {
+ 	display: block;
+ 	color:#777777;
+ }
+
+#sister-sites li {
+	display: inline-block;
+	margin-right: 1px;
+	padding: 4px 5px 0 5px;
+	border: 1px solid transparent;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	word-spacing: normal;
+
+}
+
+#sister-sites ul {
+	padding-left: 0;
+	margin: 0 auto; 
+	width: 1050px; 
+}
+
+#sister-sites a{
+	text-decoration: none;
+	color: #0945ff;
+
+
+}
+
+#sister-sites {
+	background-color: #dddddd;
+	padding-top: 5px;
+	border-bottom: 1px solid #aaaaaa;
+	word-spacing: -4px;
+}
+
+#active-site a {
+	color: #777777;
+}
+
+li#active-site {
+	background-color: #ffffff;
+	padding: 4px 5px 0 5px;
+	border-left: 1px solid #aaaaaa;
+	border-top: 1px solid #aaaaaa;
+	border-right: 1px solid #aaaaaa;
+	position: relative;
+	top: 2px;
+}
+
+#sister-sites li:hover:not(#active-site){
+	background-color: #ffffff;
+	border: 1px solid #bde2f1;
+}
+
+#sister-sites li:hover:not(#active-site) a,
+#sister-sites li:hover:not(#active-site) a small {
+	color:  #FF432C;
+
+}
+
+main {
+	background-color: #ffffff;
+	width: 1050px;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+
+.product {
+	background-color: #eeeeee;
+	width: 19% ;
+	height: 210px;
+	margin-right: 10px;
+	float: left;
+	position: relative;
+	border: 1px solid #999999;
+	box-sizing: border-box;
+}
+
+.product h2 {
+	font-size: 16px;
+	font-weight: normal;
+	margin-top: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.product p {
+	font-weight: bold;
+	text-align: right;
+}
+
+.product img {
+	max-width: 100%;
+}
+
+.producl:last-child {
+	margin-right: 0; 
+}
+
+/*#deals {
+	background-color: red;
+}*/
+
+.product div {
+	padding: 10px;
+
+}
+ 
+ .discount {
+ 	background-color: #e34647;
+ 	padding: 4px 8px;
+ 	color: white;
+ 	position: absolute;
+ 	top: 5px;
+ 	left: -5px;
+ }
+
+section:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+
+
+
